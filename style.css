@@ -1,0 +1,23 @@
+* {
+    box-sizing= border-box;
+}
+header {
+    width: 100%;
+    height: 20%;
+    color: black;
+    background-color: greenyellow;
+}
+#title {
+    padding: 15px;
+    font-family: sans-serif;
+}
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+}
+select {
+    width: 300px;
+}
+.wing {
+    border-left: 2px solid black;
+}
