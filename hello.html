@@ -3,73 +3,109 @@
 <head>
     <title>Hello...</title>
    <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.min.css">
     
     </head>
 <body>
-    <center>
-    <header><h1 id="title">Social Experiment</h1></header>
-        <div id="wrapper">
-            <div class="wing">
-            <h2>Know Your Course</h2>
-            <form>
-                Select Subject #1: <br><select name="subject1" >
-                    <option value="Use of English">Use of English</option>
-                </select><br><br>
-                Select Subject #2: <br><select name="subject2" >
-                    <option value="Mathematics">Mathematics</option>
-                    <option value="Biology">Biology</option>
-                    <option value="Physics">Physics</option>
-                    <option  value="Chemistry">Chemistry</option>
-                    <option value="Geography">Geography</option>
-                    <option value="IRK">IRK</option>
-                    <option value="CRS">CRS</option>
-                    <option value="Commerce">Commerce</option>
-                    <option value="Literature in English">Literature in English</option>
-                    <option value="Principle of Accounting">Principle of Accounting</option>
-                    <option value="Government">Government</option>
-                </select><br><br>
-                Select Subject #3: <br><select name="subject3">
-                    <option value="Mathematics">Mathematics</option>
-                    <option value="Biology">Biology</option>
-                    <option value="Physics">Physics</option>
-                    <option  value="Chemistry">Chemistry</option>
-                    <option value="Geography">Geography</option>
-                    <option value="IRK">IRK</option>
-                    <option value="CRS">CRS</option>
-                    <option value="Commerce">Commerce</option>
-                    <option value="Literature in English">Literature in English</option>
-                    <option value="Principle of Accounting">Principle of Accounting</option>
-                    <option value="Government">Government</option>
-                </select><br><br>
-                Select Subject 4: <br><select name="subject4">
-                    <option value="Mathematics">Mathematics</option>
-                    <option value="Biology">Biology</option>
-                    <option value="Physics">Physics</option>
-                    <option  value="Chemistry">Chemistry</option>
-                    <option value="Geography">Geography</option>
-                    <option value="IRK">IRK</option>
-                    <option value="CRS">CRS</option>
-                    <option value="Commerce">Commerce</option>
-                    <option value="Literature in English">Literature in English</option>
-                    <option value="Principle of Accounting">Principle of Accounting</option>
-                    <option value="Government">Government</option>
-                </select><br><br>
-                <button type="submit">Get your course</button>
-            </form>
+    <div class="container">
+        <header class="head">
+            <h3 class="">School Combo</h3>
+            <nav class="nav">
+                <a href="#about">about</a>
+            </nav>
+        </header>
+        <div class="main">
+            <div class="option_box">
+                <div class="course_box">
+                    <h2>Know Your Course</h2>
+                </div>
+                <div class="subject_box">
+                    <h2>Know your Subjects</h2>
+                </div>
+            </div>
+            <div class="selections">
+                <div class="course">
+                    <form>
+                        <div class="form-group">
+                            <label for="sub1">Subject 1:</label>
+                            <select name="subject1" id="sub1" class="form-control">
+                                <option value="English">Use of English</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sub2">Subject 2:</label>
+                            <select name="subject2" id="sub2"  class="form-control">
+                                <option value="Mathematics">Mathematics</option>
+                                <option value="Biology">Biology</option>
+                                <option value="Physics">Physics</option>
+                                <option  value="Chemistry">Chemistry</option>
+                                <option value="Geography">Geography</option>
+                                <option value="IRK">IRK</option>
+                                <option value="CRS">CRS</option>
+                                <option value="Commerce">Commerce</option>
+                                <option value="Literature in English">Literature in English</option>
+                                <option value="Principle of Accounting">Principle of Accounting</option>
+                                <option value="Government">Government</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sub3">Subject 3:</label>
+                            <select name="subject3" id="sub3" class="form-control">
+                                <option value="Mathematics">Mathematics</option>
+                                <option value="Biology">Biology</option>
+                                <option value="Physics">Physics</option>
+                                <option  value="Chemistry">Chemistry</option>
+                                <option value="Geography">Geography</option>
+                                <option value="IRK">IRK</option>
+                                <option value="CRS">CRS</option>
+                                <option value="Commerce">Commerce</option>
+                                <option value="Literature in English">Literature in English</option>
+                                <option value="Principle of Accounting">Principle of Accounting</option>
+                                <option value="Government">Government</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sub4">Subject 4:</label>
+                            <select name="subject4" id="sub4" class="form-control">
+                                <option value="Mathematics">Mathematics</option>
+                                <option value="Biology">Biology</option>
+                                <option value="Physics">Physics</option>
+                                <option  value="Chemistry">Chemistry</option>
+                                <option value="Geography">Geography</option>
+                                <option value="IRK">IRK</option>
+                                <option value="CRS">CRS</option>
+                                <option value="Commerce">Commerce</option>
+                                <option value="Literature in English">Literature in English</option>
+                                <option value="Principle of Accounting">Principle of Accounting</option>
+                                <option value="Government">Government</option>
+                            </select>
+                        </div>
+                        <div class="fm-btn">
+                            <button type="submit" class="btn btn-primary">Get your course</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="subject">
+                    <form>
+                        <div class="form-group">
+                            <label for="institution" class="label">Select institution of choice:</label>
+                            <Select name="institution" id="institution" class="form-control">
+                            <option value="unilag">University of Lagos</option>
+                            </Select>
+                        </div>
+                        <div class="form-group">
+                            <label for="course">Select your course:</label>
+                            <select name="course" id="course" class="form-control select">
+                                    <option value="accounting">accounting</option>
+                            </select>
+                        </div>
+                        <div class="fm-btn">
+                            <button type="submit" class="btn btn-primary">Get your subjects</button>
+                        </div>
+                    </form>   
+                </div>        
+            </div>
         </div>
-            <div class="wing">
-                <h1>Know your Subjects</h1>
-                <form>
-                    Select institution of choice: <br><Select name="institution">Select your aspired course: 
-                    <option></option>
-                    </Select><br><br>
-                    Select course: <br><select name="course">
-                    <option></option>
-                    </select><br><br>
-                </form>
-                <button type="submit">Get your subjects</button>
-            </div>        
-        </div>
-    </center>
+    </div>
  </body>
 </html
