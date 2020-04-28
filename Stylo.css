@@ -1,0 +1,222 @@
+body {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+ 
+
+
+}
+
+
+
+.container-one {
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 180px;
+  text-align: center;
+  background-color: rgba(222, 222, 222, 0.3);
+  padding: 20px;
+
+
+}
+
+
+
+.container-two {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 60px;
+  padding: 30px 20px 20px 50px;
+  background-color: rgba(222, 222, 222, 0.3);
+  
+
+}
+
+
+
+.sub-con1 {
+  background-color: white;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 30px 20px 20px 50px;
+ 
+  
+
+
+}
+
+
+
+.sub-con2 {
+  background-color: white;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 30px 20px 20px 50px;
+  
+  
+
+
+}
+
+
+.container-three {
+  width: 100%;
+  height: 400px;
+  margin-top: 60px 30px 30px 30px
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 25px 10px 10px 20px;
+  
+
+
+}
+
+
+div > p {
+  text-decoration-style: italics;
+  font-family: Times-new Roman;
+  padding: 30px;
+  margin: 20px;
+  line-height: 50px;
+  font-size: 45px;
+
+
+
+}
+
+
+
+
+.submit-butt {
+  
+  width: 400px;
+  height: 100px;
+  font-size: 35px;
+  font-family:: monospace;
+  text-decoration: italics;
+  border-radius: 2px;
+  margin: 30px;
+  padding: 35px;
+  text-align: center;
+  background-color: dodgerblue;
+  color: white;
+
+
+
+}
+
+
+.input-field {
+
+  height: 200px;
+  width: 80%;
+  margin: 30px;
+  font-size: 30px;
+  padding: 25px;
+
+}
+
+
+
+img {
+
+  height: 400px;
+  width: 400px;
+  margin: 50px;
+
+}
+
+
+
+.bold {
+ font-size: 50px;
+ padding: 25px;
+ margin: 30px;
+ text-decoration: bold;
+ 
+
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+
+  .container-one {
+    height: 1000px;
+    margin: 100px:
+    padding: 80px;
+    
+  
+  
+  }
+  
+  
+  .sub-con1 {
+    width:40%;
+    float:left;
+    margin-bottom: 100px;
+  
+  
+  }
+  
+  
+  .sub-con2 {
+    width: 40%;
+    float: right;
+    margin-bottom: 100px;
+  
+  
+  
+  
+  }
+  
+  
+  
+  .container-two {
+    width: 100%;
+    margin-bottom: 100px;
+  
+  
+  
+  
+  }
+  
+  
+  .img-edge {
+    width: 600px;
+    height: 700px;
+    float: left;
+  
+  
+  }
+  
+  
+  
+  .butt-edge {
+    float: right;
+  
+  
+  
+  }
+  
+  
+  .sub-butt {
+    width: 70%;
+    height: 4em;
+  
+  
+  
+  
+  
+  }
+
+
+
+
+}
