@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 100px;
+    color: white;
+    background-color: rgb(2, 2, 158);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ql{width: 25%;} .serv{width: 25%;} .fflw{width: 50%;}
+.icons{
+    font-size: 220%;
+}
+
+@media screen and (max-width: 1000px){
+    footer{
+        padding: 30px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .ql{width: 100%;} .serv{width: 100%;} .fflw{width: 100%;}
+    .ql, .serv, .fflw{margin-bottom: 20px;}
+}
