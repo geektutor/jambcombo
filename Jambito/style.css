@@ -40,6 +40,8 @@ button{
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    color: white;
+    text-align: center;
 }
 
 .container{
