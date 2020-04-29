@@ -151,6 +151,7 @@ img {
     height: 1000px;
     margin: 100px:
     padding: 80px;
+    display: flex;
     
   
   
@@ -181,6 +182,7 @@ img {
   .container-two {
     width: 100%;
     margin-bottom: 100px;
+    display: flex;
   
   
   
