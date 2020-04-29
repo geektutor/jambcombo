@@ -7,7 +7,6 @@ body
 {
   text-align: center;
   background-color: rgba(222, 222, 222, 0.3);
-  display: flex;
   width: 100%;
   box-sizing: border-box;
   padding: 30px;
@@ -16,7 +15,6 @@ body
 {
   margin-bottom: 60px;
   background-color: rgba(222, 222, 222, 0.3);
-  display: flex;
   width: 100%;
   margin-top: 70px;
 }
