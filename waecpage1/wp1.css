@@ -12,7 +12,8 @@ body{
 }
 .text1{
     width: 50%;
-    margin: 330px 450px 0px 300px;
+    margin: 330px 300px 0px 300px;
+    padding-left: 200px;
 }
 label{
     font-style: normal;
@@ -48,10 +49,14 @@ button{
     }
     .text1{
         width: 100%;
-        margin: 125px 0px 0px 10px;
+        margin: 120px 0px 0px 25px;
+        padding-left: 0px;
     }
     select{
-        width: 280px;
-        padding: 10px 10px;
+        width: 260px;
+        padding: 6px 4px;
+    }
+    button{
+        line-height: 30px;
     }
 }
