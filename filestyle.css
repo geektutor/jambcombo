@@ -29,10 +29,12 @@ body
   width: 200px;
   border: 4px dashed black;
   margin: auto;
+  margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
   box-sizing:border-box;
   background-attachment: none;
+  
   
  
   
@@ -121,6 +123,7 @@ body
   width: 500px;
   border: 8px dashed black;
   margin-bottom: 60px;
+  margin-top: 70px;
  
   
   }
