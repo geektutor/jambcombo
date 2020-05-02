@@ -21,7 +21,7 @@ body{
     margin-top: 40px;
 }
 .unis{
-    width: 35%;
+    width: 22%;
     background-color: #ffffff;
     border-radius: 15px;
     text-align: justify;
@@ -32,9 +32,6 @@ body{
     text-align: center;
 }
 .contain{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     margin: 20px;
 }
 
@@ -42,5 +39,4 @@ body{
     .subcom{width: 100%;}
     .unis{width: 100%;}
     .container{padding: 15px;}
-    .contain{font-size: 11px; margin: 4px;}
 }
