@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    margin: auto;
+    margin-bottom: -0.8rem;
+    justify-content: space-between;
+    padding: 2rem 2rem 0 2rem;
+}
+.heading{
+    display: flex;
+}
+.head a{
+    margin-left: 3rem;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.head a:hover{
+    text-decoration: underline rgb(2, 2, 158);
+    color: rgb(2, 2, 158);
+}
+.logo{
+    background-image: url(jambito.png);
+    height: 60px;
+    width: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+#button{
+    padding: 0.7rem;
+    width: 7rem;
+    margin-top: -12px;
+    background-color: rgb(2, 2, 158);
+    border: rgb(2, 2, 158);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+input{
+    padding: 0.5rem;
+    margin: auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(2, 2, 158);
+    width: 300px;
+}
+input::placeholder{
+    padding: 0.5rem;
+    font-size: 16px;
+}
+.message{
+    width: 300px;
+    margin: auto;
+    padding-bottom: 5rem;
+    margin-bottom:20px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(2, 2, 158);
+    
+}
+.message::placeholder{
+    padding: 0.5rem 1rem ;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; 
+    
+}
+
+.contact{
+    background-color: rgb(2, 2, 158);
+    border: rgb(2, 2, 158);
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    padding: 15px;
+}
+.contact:hover{
+    background-color: rgb(2, 2, 158);
+}
+footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px;
+    color: white;
+    background-color: rgb(2, 2, 158);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+  }
+  .icons
+  {
+    font-size: 220%;
+  }
+@media screen and (max-width: 1024px)
+{
+header
+{
+    padding: 1rem 1rem 0 1rem;
+}
+.head a
+{
+    margin-left: 10px;
+    font-size: 16px;
+}
+#button
+{
+    width: 4rem;
+    padding: 0.5rem;
+    font-size: 14px;
+}
+.logo
+{
+    height: 50px;
+    width: 50px;
+}
+input,.message
+{
+    width: 250px;
+}
+footer
+{
+    font-size: 30px;
+    line-height: 30px;
+    max-width: 775px;
+    text-align: center;
+}
+.ql, .serv, .fflw
+{
+  margin-bottom: 20px;
+  width: 100%;
+}
+}
