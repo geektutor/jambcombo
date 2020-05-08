@@ -38,5 +38,5 @@ body{
 @media screen and (max-width: 1000px){
     .subcom{width: 100%;}
     .unis{width: 100%;}
-    .container{padding: 15px;}
+    .container{padding: 15px; font-size: 12px;}
 }
