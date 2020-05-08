@@ -255,5 +255,22 @@ input, .create{
 
 }
 
+@media(min-width:1920px){
+.forgot{
+    margin-right: 7rem;
+}
+.wrapper{
+    padding: 4rem 1rem 3rem 8rem;
+}
+.check{
+    margin-right: 6rem;
+}
+.already{
+    margin-right: 2rem;
+}
+}
+
+
+
 
 
