@@ -1,76 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="filestyle.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="css/header.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/filestyle.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="css/footer.css" type="text/css" media="screen">
+  <link rel="icon" href="img/jambito.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<title></title>
-
-
+<title>Upload files</title>
 </head>
-
-
 <body>
-
-
-  <main>
-    
-    <form>
-    
-      <div class="field">
-        
-        
-        <input type="file"  value="file-upload" class="file-field">
-        
-        
+  <header>
+    <div class="logo"></div>
+    <div class="heading">
+      <div class="head"><a href="index.html">Home</a></div> 
+      <div class="head"><a href="#">About</a> </div> 
+      <div class="head"><a href="#">Contact</a> </div> 
+      <div class="head"><a href="signup.html"> <button id="button">LOG IN</button> </a> </div>
+    </div>
+</header>  
+  <main>    
+    <form>    
+      <div class="field">     
+        <input type="file"  value="file-upload" class="file-field">        
         <button type="submit" class="button"> Upload </button>
-        
-        
-      </div>
-     
-    </form>
-    
-    <h2> OR </h2>
-    
-    <form>
-      
-      <div class="text-field">
-        
-      
-        <textarea type="comments" class="input-text" row="100" col="1000" placeholder="Type-in your question"></textarea>
-      
-          <br>
-          
-         
+      </div>     
+    </form>    
+    <h2> OR </h2>    
+    <form>      
+      <div class="text-field">       
+        <textarea type="comments" class="input-text" rows="1000" cols="1000" placeholder="Type-in your question"></textarea><br>         
         <button type="submit" for="submit" class="button"> Submit </button>
-      
       </div>
-    
     </form>
   </main>
-
-     <footer>
-        <div class="ql">
-            <h3>QUICK LINKS</h3>
-            <p>News</p>
-            <p>Articles</p>
+  <footer>
+    <div class="ql">
+        <h3>QUICK LINKS</h3>
+        <p>Blog</p>
+        <p>Resource</p>
+        <p>Jamb Combo</p>
+        <p>WAEC Combo</p>
+    </div>
+    <div class="serv">
+        <h3>SERVICES</h3>
+        <p>Upload a question</p>
+        <p>Consults</p>
+    </div>
+    <div class="fflw">
+        <h3>FOLLOW US</h3>
+        <div class="icons">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
         </div>
-        <div class="serv">
-            <h3>SERVICES</h3>
-            <p>Blah</p>
-            <p>Blah</p>
-        </div>
-        <div class="fflw">
-            <h3>FOLLOW US</h3>
-            <div class="icons">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-            </div>
-        </div>
-    </footer>
+    </div>
+</footer>
 </body>
-
-
-
 </html>

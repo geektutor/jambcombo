@@ -1,0 +1,70 @@
+div > p 
+{
+  font-family: serif;
+  margin: 20px;
+  line-height: 50px;
+  font-size: 20px;
+}
+h3
+{
+  font-size: 40px;
+}
+.text1
+{
+    width: 50%;
+    margin: 330px 300px 0px 300px;
+    padding-left: 200px;
+}
+label
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+select
+{
+    background: #FFFFFF;
+    border: 2px solid rgb(2, 2, 158);
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: 500px;
+}
+button
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    background: rgb(2, 2, 158);
+    border-radius: 10px;
+    border: 1px solid rgb(2, 2, 158);
+    width: 150px;
+    margin: 20px 50px;
+}
+
+@media screen and (max-width: 1024px)
+{
+  
+    .text1
+    {
+        width: 100%;
+        margin: 120px 0px 0px 25px;
+        padding-left: 0px;
+    }
+    select
+    {
+        width: 260px;
+        padding: 6px 4px;
+    }
+    button
+    {
+        line-height: 30px;
+    }
+  .waecpage1
+  {
+      text-align: center;
+  }
+}

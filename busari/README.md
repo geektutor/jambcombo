@@ -1,2 +1,0 @@
-# jambcombo
-Project for daddies

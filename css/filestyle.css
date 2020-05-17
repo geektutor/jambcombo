@@ -1,29 +1,23 @@
-body
+div > p 
 {
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-  text-align: center;
-  background-color: rgba(22, 22, 22, 0.1);
-  
-
-
+  font-family: serif;
+  margin: 20px;
+  line-height: 50px;
+  font-size: 20px;
 }
-
-
+h3
+{
+  font-size: 20px;
+}
 .field 
 {
   width: 70%;
   text-align: center;
   margin: auto;
   margin-bottom: 40px;
-  
-
 }
-
-
-
-.file-field {
+.file-field 
+{
   
   height: 250px;
   width: 200px;
@@ -34,142 +28,74 @@ body
   text-align: center;
   box-sizing:border-box;
   background-attachment: none;
-  
-  
- 
-  
- 
-
 }
-
-
-
-
-.text-field {
+.text-field 
+{
   margin: auto;
   margin-top: 20px;
   text-align: center;
-  
-  
-  
-
-
-
 }
-
-
-
-.input-text  {
-  rows: 1000;
-  cols: 1000;
+.input-text  
+{
   width: 300px;
   height: 120px;
-  padding-down: 100px;
+  padding: 100px;
   background-color: rgba(40, 30, 220, 0.2);
   box-sizing:border-box;
   margin-top: 50px;
   border-radius: 4px;
-
-
 }
-
-
-
-.button {
+.button 
+{
   margin: 20px;
   height: 40px;
   width: 150px;
   color: white;
-  background-color: dodgerblue;
+  background-color: rgb(2, 2, 158);
   font-size: 20px;
   font-family: Helvetica;
   border-radius: 10px;
   text-align: center;
-  
-
-
-
+  border: none;
 }
 
-
-
-
-@media screen and (min-width:850px) {
-
-
-  body {
-  
+@media screen and (max-width: 1024px) 
+{
+  body 
+  {
     font-size: 45px;
-    
- 
-  
   }
-  
-  
-  
-  .field {
-    
+  .field 
+  {
     width: 100%;
     margin-bottom: 100px;
-    
-  
   }
-  
-  
-  
-  .file-field {
-  
-  height: 550px;
-  width: 500px;
+  .file-field 
+  {
+    height: 400px;
+    width: 400px;
   border: 8px dashed black;
   margin-bottom: 60px;
   margin-top: 70px;
- 
-  
-  }
-  
-  
-  
-  .text-field  {
-  
+  }  
+  .text-field  
+  {
     margin-top: 80px;
- 
-
   }
-
-
-
-  .input-text  {
-  
-  rows: 1000;
-  cols: 1000;
+  .input-text 
+  {
   width: 80%;
   height: 400px;
-  padding-down: 300px;
   font-size: 40px;
   border-width: 5px;
   border-color: black;
   margin-top: 100px;
-  
-
-
   }
-
-
-  .button {
-  
+  .button 
+  {
   margin: 70px;
-  height: 100px;
-  width: 350px;
-  font-size: 50px;
-
-
+  height: 60px;
+  width: 200px;
+  font-size: 30px;
   }
-
-
-
-
-
-
 }
-

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    margin: auto;
+    margin-bottom: -0.8rem;
+    justify-content: space-between;
+    padding: 2rem 2rem 0 2rem;
+}
+.heading{
+    display: flex;
+}
+.head a{
+    margin-left: 3rem;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.head a:hover{
+    text-decoration: underline rgb(2, 2, 158);
+    color: rgb(2, 2, 158);
+}
+.logo{
+    background-image: url(../img/jambito.png);
+    height: 60px;
+    width: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+#button{
+    padding: 0.7rem;
+    width: 7rem;
+    margin-top: -12px;
+    background-color: white;
+    border: 2px solid rgb(2, 2, 158);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(2, 2, 158);
+    text-align: center;
+}

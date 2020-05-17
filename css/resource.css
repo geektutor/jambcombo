@@ -1,0 +1,127 @@
+div > p 
+{
+  font-family: serif;
+  margin: 20px;
+  line-height: 50px;
+  font-size: 20px;
+}
+h3
+{
+  font-size: 40px;
+}
+.container1
+{
+    padding: 5rem 0 10rem 0;
+    background-color: rgb(2, 2, 158);
+    display: flex;
+    flex-direction: column;
+}
+.resource
+{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+.flex
+{
+    display: flex;
+    flex-direction: row;
+
+}
+input
+{
+    width: 65%;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 30px;
+    border: white;
+}
+input::placeholder
+{
+    font-size: 18px;
+}
+#icon
+{
+    position: absolute;
+    padding: 14px;
+    right:16rem ;
+}
+.container2
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: hsl(208, 18%, 86%);
+}
+.step p, .book p
+{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+.step h1
+{
+    font-size: 25px;
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+}
+.book h1
+{
+    font-size: 25px;
+    text-align: center;
+    padding: 4rem 0 3rem 0;
+}
+.step, .book
+{
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: white;
+    color: black;
+    background-color: white;
+    padding: 1rem;
+    position: relative;
+    z-index: 10;
+    top: -6rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.start
+{
+    padding: 0.5rem;
+    width: 8rem;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    color: white;
+    background-color: rgb(2, 2, 158);
+    border: rgb(2, 2, 158);
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.start:hover
+{
+    background-color: rgb(2, 2, 158);
+}
+
+@media screen and (max-width:1200px){
+.step, .book{
+    width: 25%;
+
+}
+
+}
+
+@media screen and (max-width:770px){
+
+.step, .book{
+    width: 90%;
+    margin-bottom: 2rem;
+
+}
+
+}

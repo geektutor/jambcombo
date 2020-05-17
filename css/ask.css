@@ -1,0 +1,87 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+input{
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(2, 2, 158);
+    width: 300px;
+}
+input::placeholder{
+    padding: 0.5rem;
+    font-size: 16px;
+}
+.message{
+    width: 300px;
+    margin: auto;
+    padding-bottom: 5rem;
+    margin-bottom:20px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(2, 2, 158);
+    
+}
+.message::placeholder{
+    padding: 0.5rem 1rem ;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; 
+    
+}
+
+.contact{
+    background-color: rgb(2, 2, 158);
+    border: rgb(2, 2, 158);
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    padding: 15px;
+}
+.contact:hover{
+    background-color: rgb(2, 2, 158);
+}
+@media screen and (max-width: 1024px)
+{
+header
+{
+    padding: 1rem 1rem 0 1rem;
+}
+.head a
+{
+    margin-left: 10px;
+    font-size: 16px;
+}
+#button
+{
+    width: 4rem;
+    padding: 0.5rem;
+    font-size: 14px;
+}
+.logo
+{
+    height: 50px;
+    width: 50px;
+}
+input,.message
+{
+    width: 250px;
+}
+h4
+{
+    font-size: 28px;
+    padding: 10px;
+}
+
+}
