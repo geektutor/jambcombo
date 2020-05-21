@@ -1,13 +1,12 @@
-div > p 
-{
-  font-family: serif;
-  margin: 20px;
-  line-height: 50px;
-  font-size: 20px;
+*{
+    margin: 0;
+    padding: 0;
 }
-h3
-{
-  font-size: 40px;
+body{
+    background-image: url(./img/bgwaecpg1.jpg);
+    background-size: 1441px 750px;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
 }
 .text1
 {
@@ -47,7 +46,11 @@ button
 
 @media screen and (max-width: 1024px)
 {
-  
+
+    body{
+        background-size: 100%;
+        line-height: 30px;
+    }
     .text1
     {
         width: 100%;
@@ -67,4 +70,7 @@ button
   {
       text-align: center;
   }
+  label{
+    font-size: 17px;
+}
 }

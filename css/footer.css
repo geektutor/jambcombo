@@ -1,5 +1,3 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -14,9 +12,19 @@ footer{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
+.footer-h3{
+    font-size: 18.72px;
+}
+.footer-p{
+    cursor: pointer;
+    font-size: 15.8px;
+}
 .icons{
     font-size: 220%;
     padding-top: 10px;
+}
+.fa{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 700px){
@@ -25,6 +33,6 @@ footer{
         font-size: 10px;
         line-height: 22px;
     }
-    .ql{width: 100%;} .serv{width: 100%;} .fflw{width: 100%;}
-    .ql, .serv, .fflw{margin-bottom: 20px;}
+    .quick-links{width: 100%;} .services{width: 100%;} .follow-us{width: 100%;}
+    .quick-links, .services, .follow-us{margin-bottom: 20px;}
 }

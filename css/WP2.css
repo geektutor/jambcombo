@@ -1,26 +1,22 @@
-div > p 
-{
-  font-family: serif;
-  margin: 20px;
-  line-height: 50px;
-  font-size: 20px;
-}
-h3
-{
-  font-size: 40px;
-}
-*
-{
+*{
     margin: 0;
     padding: 0;
+}
+body{
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+.waecpage2{
+    line-height: 40px;
 }
 .container
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 20px;
 }
-.subcom
+.subject-combo
 {
     width: 20%;
     background-color: #ffffff;
@@ -31,28 +27,25 @@ h3
 }
 .unis
 {
-    width: 35%;
+    width: 20%;
     background-color: #ffffff;
     border-radius: 15px;
     text-align: justify;
     padding: 20px;
     margin-top: 40px;
 }
-.univ
+.universities
 {
     text-align: center;
 }
 .contain
 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     margin: 20px;
 }
 
 @media screen and (max-width: 1024px)
 {
-    .subcom
+    .subject-combo
     {
         width: 100%;
     }
@@ -66,12 +59,7 @@ h3
     }
     .contain
     {
-        font-size: 11px; margin: 4px;
+        font-size: 15px; margin: 4px;
     }        
-      
-   h4
-   {
-     font-size: 30px;
-   }   
  
 }
