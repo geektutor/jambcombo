@@ -1,40 +1,21 @@
+body
+{
+  font-family: 'Roboto', sans-serif;
+}
 .container
 {
   background-image: url(../img/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 500px;
+  height: 400px;
   width: 100%;
-  margin-top: 0;
+  margin-top: 30px;
 }
 .welcome
 {
   padding: 5rem;
-  font-family: 'Montaga', sans-serif;
   color: white;
-}
-h1
-{    
-  font-size: 70px;    
-}
-h2
-{
-  margin-top: 20px;
-}
-p
-{ 
-  font-size: 30px;
-}
-.container-one 
-{
-  text-align: center;
-  background-color: rgba(222, 222, 222, 0.3);
-  display: flex;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 30px;
-  margin-top: 50px;
 }
 .container-two 
 {
@@ -45,41 +26,28 @@ p
   box-sizing: border-box;
   margin-top: 70px;
   padding: 10px;
+  text-align: center;
 }
-.sub-con1 
+.sub-con1, .sub-con2
 {
   background-color: white;
-  height: 550px;
-  width: 50%;
-  border-radius: 50px;
-}
-.sub-con2 
-{
-  background-color: white;
-  height: 550px;
-  width: 50%;
-  margin-left: 300px;
-  border-radius: 50px;
+  width: 80%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 30px;
+  margin-left: 120px;
+  border-bottom: 2px solid gainsboro;
+  border-right: 2px solid gainsboro;
+
 }
 .container-three 
 {
   height: 300px;
-  margin-top: 50px;
-  margin-bottom: 20px;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
-}
-input
-{
-  width: 400px;
-  box-sizing: border-box;
-  padding: 20px;
-  border: 2px solid blue;
-}
-h3
-{
-  font-size: 40px;
 }
 div > p 
 {
@@ -88,21 +56,40 @@ div > p
   line-height: 50px;
   font-size: 20px;
 }
-
-.stars{
-  width: 300px;
-  display: inline-block;
-  justify-items: left;
-  font-size: 20px;
+p
+{ 
+  font-size: 30px;
+}
+h1
+{    
+  font-size: 70px;    
+}
+h2
+{
+  margin-top: 20px;
+}
+h3
+{
+  font-size: 30px;
+  text-align: center;
+}
+h4
+{
+  font-size: 35px;
 }
 h5
 {
   font-size: 20px;
   margin-left: 35px;
   margin-top: 60px;
+  color: rgb(2, 2, 158);
 }
-.stars h3{
-  margin-left: 35px;
+.stars
+{
+  width: 300px;
+  display: inline-block;
+  justify-items: left;
+  font-size: 20px;
 }
 input.star{
   display: none;
@@ -111,7 +98,7 @@ label.star{
   float: right;
   padding: 10px;
   font-size: 36px;
-  color: #444;
+  color: rgb(2, 2, 158);
   transition: all 0.2s;
 }
 input.star:checked ~ label.star:before{
@@ -133,23 +120,35 @@ input.star-1:checked ~ label.star:before{
 input.star-2:checked ~ label.star:before{
   color: #f62;
 }
-h4
+input
 {
-  font-size: 35px;
+  width: 400px;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 2px solid rgb(2, 2, 158);
+  margin-top: 60px;
 }
-button 
+button[type=submit]
 { 
-  width: 200px;
-  height: 70px;
-  font-size: 30px;
+  width: 150px;
+  height: 65px;
+  font-size: 25px;
   font-family: monospace;
   border: none;
   margin: 30px;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   background-color: rgb(2, 2, 158);
   color: white;
   border-radius: 10px;
+}
+#check-btn
+{
+  margin-top: 150px;
+}
+#join-btn
+{
+  width: 200px;
 }
 #img 
 {
@@ -171,26 +170,24 @@ button
   margin: 0;
   padding: 0;
 }
-@media only screen and (max-width: 1024px)
+@media only screen and (max-width: 750px)
 {  
   .container
   {
       height: 300px;
       max-width: 100%;
   }
-  button[name=ask]
-  {
-    height: 80px;
-    width: 150px;
-  }
   .welcome
   {
       padding: 3rem;
-      font-family: 'Montaga', sans-serif;
   }
   h1
   {    
       font-size: 42px;    
+  }
+  h3
+  {
+    font-size: 30px;
   }
   h4
   {
@@ -200,42 +197,19 @@ button
   { 
       font-size: 30px;
   }
-  .container-one
+  .sub-con1, .sub-con2
   {
-    max-width: 980px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    margin: 0%;
-    padding: 20px;
-  }
-  .sub-con1 
-  {
-    height: 570px;
     width: 100%;
     font-size: 30px;
     margin: 0;
     box-sizing: border-box;
-  } 
-  .sub-con2 
-  {
-    width: 100%;
-    height: 600px;
-    margin-top: 50px;
-    margin-left: 0;
-    box-sizing: border-box;
-  }  
-  .submit-butt
-  {
-    margin-bottom: 50px;
-  }
-  .submit-but
-  {
-    margin-bottom: 30px;
-  }
-  h3
-  {
-    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid gainsboro;
+    height: 620px;
+    padding: 7px;
   }
   .container-two 
   {
@@ -256,30 +230,43 @@ button
   }
   .stars
   {
-    margin-left: 10px;
+    margin-bottom: 50px;
   }
   input
   {
     width: 95%;
     box-sizing: border-box;
-    border: 1px solid gray;
     font-size: 20px;
     padding: 15px;
     margin-top: 20px;
   }
-  #img, #img1
-  {
-    width: 200px;
-    height: 200px;
-  }
-  button
+  button[type=submit]
   {
     width: 38%;
     height: 70px;
     border-radius: 10px;
     font-size: 20px;
   }
-  .img-edge
+  #check-btn
+  {
+    margin-top: -60px;
+  }
+  #join-btn
+  {
+    width: 200px;
+    margin-top: 20px;
+  }
+  button[name=ask]
+  {
+    height: 80px;
+    width: 150px;
+  }
+  #img, #img1
+  {
+    width: 200px;
+    height: 200px;
+  }
+  img-edge
   {
     padding: 0;
   }
@@ -287,5 +274,23 @@ button
   {
     margin-left: 0;
   }
-  
+  #img
+  {
+    margin-left: 300px;
+  }
+}
+@media screen and (max-width: 750px)
+{
+  #img
+  {
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 480px)
+{
+  #img
+  {
+    margin-left: 80px;
+  }
+
 }

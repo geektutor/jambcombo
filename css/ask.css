@@ -43,6 +43,7 @@ input::placeholder{
     border: rgb(2, 2, 158);
     font-family: 'Roboto', sans-serif;
     margin: auto;
+    margin-bottom: 40px;
     width: 120px;
     border-radius: 5px;
     font-size: 18px;

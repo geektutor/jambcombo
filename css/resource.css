@@ -5,10 +5,6 @@ div > p
   line-height: 50px;
   font-size: 20px;
 }
-h3
-{
-  font-size: 40px;
-}
 .container1
 {
     padding: 5rem 0 10rem 0;
@@ -111,9 +107,11 @@ input::placeholder
 @media screen and (max-width:1200px){
 .step, .book{
     width: 25%;
-
 }
-
+h3
+{
+    font-size: 20px;
+}
 }
 
 @media screen and (max-width:770px){

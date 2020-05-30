@@ -1,77 +1,105 @@
-div > p 
+div > p
 {
   font-family: serif;
   margin: 20px;
-  line-height: 50px;
+  line-height: 20px;
   font-size: 20px;
 }
-h3
+.waecpage2
 {
-  font-size: 40px;
-}
-*
-{
-    margin: 0;
-    padding: 0;
+    background-color: gainsboro;
+    margin-top: 15px;
 }
 .container
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 .subcom
 {
-    width: 20%;
+    width: 25%;
     background-color: #ffffff;
     border-radius: 15px;
     padding: 20px;
-    height: fit-content;
-    margin-top: 40px;
+    height: 200px;
+    margin-top: 70px;
+    line-height: 20px;
+}
+li, a
+{
+    line-height: 35px;
+}
+h3
+{
+    font-size: 25px;
 }
 .unis
 {
     width: 35%;
     background-color: #ffffff;
-    border-radius: 15px;
-    text-align: justify;
+    border-radius: 25px;
+    height: 300px;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 .univ
 {
     text-align: center;
+    margin-bottom: 20px;
 }
 .contain
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 20px;
 }
 
 @media screen and (max-width: 1024px)
 {
     .subcom
     {
-        width: 100%;
+        width: 80%;
+        margin-top: 20px;
+        height: 220px;
+    }
+    p
+    {
+        font-size: 15px;
     }
     .unis
     {
-        width: 100%;
+        width: 80%;
+        margin-top: 50px;
+        height: 300px;
+    }
+    .waecpage2
+    {
+        height: 700px;
     }
     .container
     {
-        padding: 15px;
+        margin-bottom: 75%;
     }
-    .contain
+    h3
     {
-        font-size: 11px; margin: 4px;
-    }        
-      
+        font-size: 20px;
+    }
    h4
    {
      font-size: 30px;
    }   
  
 }
+@media screen and (max-width: 480px)
+{
+    
+    .contain
+    {
+        margin: 4px;
+        font-size: 12.5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    }
