@@ -8,7 +8,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 50px;
+    padding: 10px;
     color: #ffffff;
     background-color: rgb(2, 2, 158);;
     font-family: 'Roboto', sans-serif;
@@ -29,7 +29,8 @@ footer{
         text-align: center;
     }
     .ql p, .serv p, .fflw p{
-        line-height: 30px;
+        line-height: 10px;
+        font-size: 15px;
     }
     .ql, .serv, .fflw{
         width: 100%;
