@@ -25,22 +25,22 @@ header{
     color: blue;
 }
 .logo{
-    background-image: url(jambito.png);
+    background-image: url(../img/jambito.png);
     height: 60px;
     width: 60px;
     background-size: contain;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
 }
 button{
-    padding: 0.7rem;
+    padding: 0.7em;
     width: 7rem;
     margin-top: -12px;
-    background-color: white;
-    border: 1px solid blue;
-    border-radius: 3px;
+    background-color: rgb(2, 2, 158);
+    border: none;
+    border-radius: 5px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: blue;
+    color: #ffffff;
 }
 
 .container{
@@ -76,15 +76,6 @@ color: white;
 #btn{
     text-align: center;
 }
-#join-btn{
-    background-color: blue; 
-    color: white;
-    width: 10rem;
-    margin-top: auto;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    line-height: 30px;
-}
 @media screen and (max-width:770px){
 header{
     padding: 1rem 1rem 0 1rem;
@@ -94,7 +85,7 @@ header{
     font-size: 16px;
 }
 button{
-    width: 4rem;
+    width: 5rem;
     padding: 0.5rem;
     font-size: 14px;
 }

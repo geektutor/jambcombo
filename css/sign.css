@@ -16,7 +16,6 @@ h1{
 }
 p{
     font-size: 14px;
-    color: gray;
 }
 .access{
     margin-bottom: 2rem;
@@ -124,6 +123,14 @@ label{
 .forgot{
     margin-right: 3rem;
 }
+h3
+{
+    font-size: 20px;
+}
+p
+{
+    padding: 5px;
+}
 }
 @media screen and (max-width:770px){
 .blue{
@@ -144,12 +151,12 @@ label{
 .wrapper{
     padding: 4rem 1rem 3rem 4rem;
 }
-.forgot{
+
+.forgot
+{
     margin-right: 3.2rem;
 }
-
 }
-
 
 @media screen and (max-width:400px){
 .wrapper{
@@ -162,11 +169,8 @@ input, .create{
 .forgot{margin-right: 1.6rem;}
 .have p,.already p{
     margin-right: 2rem;
-
 }
-
 }
-
 
 @media screen and (max-width:350px){
 .wrapper{
@@ -185,5 +189,4 @@ input, .create{
 .check{
     margin-right: 2rem;
 }
-
 }
