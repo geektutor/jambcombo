@@ -28,6 +28,9 @@ footer{
         font-size: 10px;
         text-align: center;
     }
+    h3{
+        font-size: 20px;
+      }
     .ql p, .serv p, .fflw p{
         line-height: 10px;
         font-size: 15px;
