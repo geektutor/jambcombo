@@ -208,7 +208,6 @@ button[type=submit]
     text-align: center;
     margin-top: 20px;
     border: 2px solid gainsboro;
-    height: 620px;
     padding: 7px;
   }
   .container-two 
@@ -242,8 +241,8 @@ button[type=submit]
   }
   button[type=submit]
   {
-    width: 38%;
-    height: 70px;
+    width: 30%;
+    height: 50px;
     border-radius: 10px;
     font-size: 20px;
   }
@@ -253,18 +252,18 @@ button[type=submit]
   }
   #join-btn
   {
-    width: 200px;
+    width: 155px;
     margin-top: 20px;
   }
   button[name=ask]
   {
-    height: 80px;
-    width: 150px;
+    height: 50px;
+    width: 110px;
   }
   #img, #img1
   {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
   img-edge
   {
@@ -274,13 +273,6 @@ button[type=submit]
   {
     margin-left: 0;
   }
-  #img
-  {
-    margin-left: 300px;
-  }
-}
-@media screen and (max-width: 750px)
-{
   #img
   {
     margin-left: 150px;
