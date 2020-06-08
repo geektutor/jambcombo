@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    margin: auto;
+    margin-bottom: -0.8rem;
+    justify-content: space-between;
+    padding: 2rem 2rem 0 139px;
+}
+.heading{
+    display: flex;
+   
+}
+.head a{
+    margin-left: 3rem;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.head a:hover{
+    color: blue;
+}
+.logo{
+    background-image: url(jambito.png);
+    height: 60px;
+    width: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+button{
+    padding: 0.7rem;
+    width: 7rem;
+    margin-top: -12px;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: blue;
+    outline: blue;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background-color: blue;
+    
+}
+.container{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    margin-top: 0;
+}
+.welcome{
+    padding-top: 8rem;
+}
+#main-text{    
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-weight: bolder;
+font-size: 40px;
+margin-bottom: 20px;
+color: white;
+    
+}
+#text{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+
+#btn{
+    text-align: center;
+}
+#join-btn{
+    background-color: blue; 
+    border: blue;
+    color: white;
+    width: 10rem;
+    margin-top: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+@media screen and (max-width:770px){
+header{
+    padding: 1rem 1rem 0 1rem;
+}
+.head a{
+    margin-left: 10px;
+    font-size: 16px;
+}
+button{
+    width: 4rem;
+    padding: 0.5rem;
+    font-size: 14px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.container{
+    height: 300px; 
+}
+.welcome{
+    padding-top: 2.5rem;
+}
+#main-text{    
+    font-size: 35px;    
+}
+#text{ 
+    font-size: 25px;
+}
+
+
+}
