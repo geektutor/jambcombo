@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
 }
-footer{
+.footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -14,29 +14,43 @@ footer{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
-.ql p, .serv p, .fflw p{
+.paragraph{
     line-height: 25px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
 }
+button{
+    cursor: pointer;
+  }
 .icons{
     font-size: 220%;
     margin-top: 15px;
 }
-
+.fa{
+    cursor: pointer;
+}
+.footer-header{
+    text-align: left;
+}
 @media screen and (max-width: 700px){
-    footer{
-        padding: 30px;
+    .footer{
+        padding: 30px 1em ;
         font-size: 10px;
         text-align: center;
+        flex-direction: row;
     }
-    h3{
+    .footer-header{
         font-size: 20px;
+        text-align: center;
       }
-    .ql p, .serv p, .fflw p{
-        line-height: 10px;
-        font-size: 15px;
-    }
     .ql, .serv, .fflw{
-        width: 100%;
+        width: 50%;
     }
-    .ql, .serv, .fflw{margin-bottom: 20px;}
+    .paragraph{
+        line-height: 20px;
+        font-size: 15px;
+        display: block;
+    }
+    .ql, .serv, .fflw{margin-bottom: 10px;}
 }

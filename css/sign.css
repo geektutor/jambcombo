@@ -1,6 +1,7 @@
 .container1{
     display: flex;
     flex-wrap: wrap;
+    background-image: url(/img/sign.jpg);
 }
 .signup{
     width: 45%;
@@ -24,20 +25,32 @@ p{
 .account{
     text-align: center;
     margin-right: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
 }
+button{
+    cursor: pointer;
+  }
 .wrapper{
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 4rem 5rem 3rem 8rem;
+    padding: 2rem 3rem 2rem 5rem;
     justify-content: center;
-    margin: auto;
+    margin: 2em;
+    background-color: #fff;
+    border-radius: 1em;
+    padding-right: 1rem;
+    margin-right: 6em;
+margin-left: 3em;
+padding-left: 3rem;
+margin-top: 1em;
+margin-bottom: 3em;
 
 }
 .blue{
-    width: 55%;
-    background-color: rgb(2, 2, 158);
+    width: 100%;
+    background-image: url(/img/sign.jpg);
+    background-position: center;
 }
 
 input{
@@ -103,6 +116,7 @@ label{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    font-weight: bold;
 }
 .already a, .have a{
     text-decoration: none;
@@ -112,7 +126,9 @@ label{
 .already p, .have p{
     color: black;
 }
-
+.signup{
+    margin-top: 2em;
+}
 @media screen and (max-width:1200px){
 .signup{
     width: 50%;
@@ -122,6 +138,8 @@ label{
 }
 .forgot{
     margin-right: 3rem;
+    margin-left: 4em;
+    margin-right: 5em;
 }
 h3
 {
@@ -130,6 +148,12 @@ h3
 p
 {
     padding: 5px;
+}
+.check{
+    margin-right: -3rem;
+}
+.check.check-signup{
+    margin-right: 3rem;
 }
 }
 @media screen and (max-width:770px){
@@ -141,6 +165,12 @@ p
 }
 .forgot{
     margin-right: 4rem;
+}
+.check{
+    margin-right: -3rem;
+}
+.check.check-signup{
+    margin-right: 3rem;
 }
 }
 
@@ -187,6 +217,9 @@ input, .create{
     margin-right: 1rem;
 }
 .check{
-    margin-right: 2rem;
+    margin-right: 0rem;
+}
+.check.check-signup{
+    margin-right: 3rem;
 }
 }

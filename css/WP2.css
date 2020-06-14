@@ -10,6 +10,9 @@ div > p
     background-color: gainsboro;
     margin-top: 15px;
 }
+button{
+    cursor: pointer;
+  }
 .container
 {
     display: flex;
@@ -60,9 +63,10 @@ h3
 {
     .subcom
     {
-        width: 80%;
+        width: 70%;
         margin-top: 20px;
         height: 220px;
+        text-align: center;
     }
     p
     {
@@ -70,9 +74,13 @@ h3
     }
     .unis
     {
-        width: 80%;
+        width: 70%;
         margin-top: 50px;
         height: 300px;
+    }
+    .uni{
+        margin: auto;
+        font-size:15px ;
     }
     .waecpage2
     {

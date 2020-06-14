@@ -7,19 +7,24 @@ div > p
 }
 .waecpage1
 {
-    height: 1060px;
+    height: calc(100vh - 300px);
     background-image: url(../img/WP1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10px;
+    padding: 10px; 
+ 
 }
 .text1
 {
     width: 50%;
-    margin: 500px 0px 200px 200px;
+    margin: 7em 0 0 7em;
     padding-left: 200px;
     text-align: center;
+    position: relative;
 }
+button{
+    cursor: pointer;
+  }
 label
 {
     font-style: normal;
@@ -68,7 +73,7 @@ button[type=submit]
     .text1
     {
         max-width: 100%;
-        margin: 250px 0px 0 60px;
+        margin: 15em 0px 0 5em;
         padding-left: 0px;
     }
     select

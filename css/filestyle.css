@@ -1,6 +1,9 @@
-main
+.option
 {
+  display: flex;
   background-color: gainsboro;
+  flex-direction: row;
+  justify-content: space-around;
 }
 div > p 
 {
@@ -9,48 +12,55 @@ div > p
   line-height: 50px;
   font-size: 20px;
 }
-h2
+.or
 {
   text-align: center;
+  margin: auto 0;
 }
-h3
-{
-  font-size: 20px;
+button{
+  cursor: pointer;
 }
 .field 
 {
   text-align: center;
   margin: auto;
+  height: 100%;
 }
 .file-field 
 {  
-  height: 350px;
+  height: 295px;
   width: 250px;
   border: 4px dashed rgb(2, 2, 158);
-  margin: auto;
-  margin-top: 50px;
+  margin: 2em;
+  margin-left: 7em;
+  margin-right: 7em;
   text-align: center;
   box-sizing:border-box;
   background-attachment: none;
 }
 .text-field 
 {
-  margin: auto;
+  margin-top: 5em;
   margin-top: 20px;
   text-align: center;
+  height: 100%;
 }
 .input-text  
 {
-  width: 700px;
-  height: 120px;
-  padding: 100px;
+  width: 500px;
+  height: 300px;
+  padding: 10px;
   background-color: rgba(40, 30, 220, 0.2);
   box-sizing:border-box;
   border-radius: 4px;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: bold;
 }
 .button 
 {
-  margin: 20px;
+  margin-top: 2em;
+  margin-bottom: 1em;
   height: 50px;
   width: 150px;
   color: white;
@@ -66,6 +76,12 @@ h3
 
 @media screen and (max-width: 1024px) 
 {
+  .option{
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+
+  }
   body 
   {
     font-size: 20px;
@@ -76,16 +92,23 @@ h3
     max-width: 300px;
     border: 3px dashed rgb(2, 2, 158);  
   }  
-  button[type=submit]
+  /* button[type=submit]
   {
-    margin-left: 10%;
+     margin-left: 10%;
+
+  } */
+  .field{
+    height: 30%;
+  }
+  .or{
+    margin: auto 0;
   }
   .input-text 
   {
-    width: 300px;
-    height: 200px;
+    width: 80%;
+    height: 150px;
     font-size: 20px;
-    padding: 40px;
+    padding: 10px;
     border-width: 5px;
     border: none;
   }

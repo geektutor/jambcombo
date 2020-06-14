@@ -23,8 +23,10 @@ div > p
 {
     display: flex;
     flex-direction: row;
-
 }
+button{
+    cursor: pointer;
+  }
 input
 {
     width: 65%;
@@ -107,6 +109,7 @@ input::placeholder
 @media screen and (max-width:1200px){
 .step, .book{
     width: 25%;
+    
 }
 h3
 {
@@ -117,9 +120,28 @@ h3
 @media screen and (max-width:770px){
 
 .step, .book{
-    width: 90%;
+    width: 80%;
     margin-bottom: 2rem;
-
+    height:60vh
 }
-
+.step p, .book p{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 6rem;
+    text-align: center;
+    line-height: 2rem;
+}
+.step h1{
+    font-size: 22px;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+.book h1{
+    font-size: 22px;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+.start{
+    margin-top: -4rem;
+}
 }

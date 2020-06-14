@@ -28,6 +28,9 @@ body
   padding: 10px;
   text-align: center;
 }
+button{
+  cursor: pointer;
+}
 .sub-con1, .sub-con2
 {
   background-color: white;
@@ -134,13 +137,18 @@ button[type=submit]
   height: 65px;
   font-size: 25px;
   font-family: monospace;
-  border: none;
+  border: 1px;
   margin: 30px;
   padding: 15px;
   text-align: center;
   background-color: rgb(2, 2, 158);
   color: white;
   border-radius: 10px;
+}
+button:hover{
+  background-color: #fff;
+  color: blue;
+
 }
 #check-btn
 {
@@ -242,9 +250,9 @@ button[type=submit]
   button[type=submit]
   {
     width: 30%;
-    height: 50px;
     border-radius: 10px;
     font-size: 20px;
+    height: 50px;
   }
   #check-btn
   {
@@ -254,11 +262,14 @@ button[type=submit]
   {
     width: 155px;
     margin-top: 20px;
+    padding-top: 5px;
   }
   button[name=ask]
   {
     height: 50px;
     width: 110px;
+    padding-top: 3px;
+    padding-bottom: 9px;
   }
   #img, #img1
   {
@@ -275,14 +286,14 @@ button[type=submit]
   }
   #img
   {
-    margin-left: 150px;
+    margin: auto;
   }
 }
 @media screen and (max-width: 480px)
 {
   #img
   {
-    margin-left: 80px;
+    margin:auto;
   }
 
 }
