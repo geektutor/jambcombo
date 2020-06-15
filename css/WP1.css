@@ -5,16 +5,26 @@ div > p
   line-height: 50px;
   font-size: 20px;
 }
-h3
+.waecpage1
 {
-  font-size: 40px;
+    height: calc(100vh - 300px);
+    background-image: url(../img/WP1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px; 
+ 
 }
 .text1
 {
     width: 50%;
-    margin: 330px 300px 0px 300px;
+    margin: 7em 0 0 7em;
     padding-left: 200px;
+    text-align: center;
+    position: relative;
 }
+button{
+    cursor: pointer;
+  }
 label
 {
     font-style: normal;
@@ -22,6 +32,15 @@ label
     font-size: 20px;
     line-height: 25px;
     color: #000000;
+}
+h2
+{
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+h3
+{
+    font-size: 20px;
 }
 select
 {
@@ -31,7 +50,7 @@ select
     padding: 10px 20px;
     width: 500px;
 }
-button
+button[type=submit]
 {
     font-style: normal;
     font-weight: 500;
@@ -47,11 +66,14 @@ button
 
 @media screen and (max-width: 1024px)
 {
-  
+    .waecpage1
+    {
+        height: 500px;
+    }  
     .text1
     {
-        width: 100%;
-        margin: 120px 0px 0px 25px;
+        max-width: 100%;
+        margin: 15em 0px 0 5em;
         padding-left: 0px;
     }
     select
@@ -63,8 +85,4 @@ button
     {
         line-height: 30px;
     }
-  .waecpage1
-  {
-      text-align: center;
-  }
 }

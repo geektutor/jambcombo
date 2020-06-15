@@ -1,3 +1,10 @@
+.option
+{
+  display: flex;
+  background-color: gainsboro;
+  flex-direction: row;
+  justify-content: space-around;
+}
 div > p 
 {
   font-family: serif;
@@ -5,50 +12,56 @@ div > p
   line-height: 50px;
   font-size: 20px;
 }
-h3
+.or
 {
-  font-size: 20px;
+  text-align: center;
+  margin: auto 0;
+}
+button{
+  cursor: pointer;
 }
 .field 
 {
-  width: 70%;
   text-align: center;
   margin: auto;
-  margin-bottom: 40px;
+  height: 100%;
 }
 .file-field 
-{
-  
-  height: 250px;
-  width: 200px;
-  border: 4px dashed black;
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+{  
+  height: 295px;
+  width: 250px;
+  border: 4px dashed rgb(2, 2, 158);
+  margin: 2em;
+  margin-left: 7em;
+  margin-right: 7em;
   text-align: center;
   box-sizing:border-box;
   background-attachment: none;
 }
 .text-field 
 {
-  margin: auto;
+  margin-top: 5em;
   margin-top: 20px;
   text-align: center;
+  height: 100%;
 }
 .input-text  
 {
-  width: 300px;
-  height: 120px;
-  padding: 100px;
+  width: 500px;
+  height: 300px;
+  padding: 10px;
   background-color: rgba(40, 30, 220, 0.2);
   box-sizing:border-box;
-  margin-top: 50px;
   border-radius: 4px;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: bold;
 }
 .button 
 {
-  margin: 20px;
-  height: 40px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  height: 50px;
   width: 150px;
   color: white;
   background-color: rgb(2, 2, 158);
@@ -57,45 +70,53 @@ h3
   border-radius: 10px;
   text-align: center;
   border: none;
+  padding: 10px;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 1024px) 
 {
+  .option{
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+
+  }
   body 
   {
-    font-size: 45px;
-  }
-  .field 
-  {
-    width: 100%;
-    margin-bottom: 100px;
+    font-size: 20px;
   }
   .file-field 
   {
-    height: 400px;
-    width: 400px;
-  border: 8px dashed black;
-  margin-bottom: 60px;
-  margin-top: 70px;
+    height: 200px;
+    max-width: 300px;
+    border: 3px dashed rgb(2, 2, 158);  
   }  
-  .text-field  
+  /* button[type=submit]
   {
-    margin-top: 80px;
+     margin-left: 10%;
+
+  } */
+  .field{
+    height: 30%;
+  }
+  .or{
+    margin: auto 0;
   }
   .input-text 
   {
-  width: 80%;
-  height: 400px;
-  font-size: 40px;
-  border-width: 5px;
-  border-color: black;
-  margin-top: 100px;
+    width: 80%;
+    height: 150px;
+    font-size: 20px;
+    padding: 10px;
+    border-width: 5px;
+    border: none;
   }
   .button 
   {
-  margin: 70px;
-  height: 60px;
-  width: 200px;
-  font-size: 30px;
+    margin: 50px;
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
   }
 }

@@ -18,13 +18,23 @@ input{
     border: 1px solid rgb(2, 2, 158);
     width: 300px;
 }
+.text{
+    margin-top: 10px;
+}
+.bg{
+    background-color: darkgray;
+}
 input::placeholder{
     padding: 0.5rem;
     font-size: 16px;
 }
+button{
+    cursor: pointer;
+  }
 .message{
     width: 300px;
     margin: auto;
+    margin-top: 10px;
     padding-bottom: 5rem;
     margin-bottom:20px ;
     box-sizing: border-box;
@@ -43,6 +53,8 @@ input::placeholder{
     border: rgb(2, 2, 158);
     font-family: 'Roboto', sans-serif;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 120px;
     border-radius: 5px;
     font-size: 18px;
@@ -83,5 +95,10 @@ h4
     font-size: 28px;
     padding: 10px;
 }
-
+.contact{
+    margin-bottom: 30px;
+}
+.container{
+    margin-bottom: 35px;
+}
 }

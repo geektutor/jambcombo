@@ -7,10 +7,14 @@ header{
     margin: auto;
     margin-bottom: -0.8rem;
     justify-content: space-between;
-    padding: 2rem 2rem 0 2rem;
+    padding: 2rem 2rem 0 139px;
+}
+button:hover{
+    background-color: #ffffff;
+    color: blue;
 }
 .heading{
-    display: flex;
+    display: flex;   
 }
 .head a{
     margin-left: 3rem;
@@ -20,24 +24,93 @@ header{
     font-family: 'Roboto', sans-serif;
 }
 .head a:hover{
-    text-decoration: underline rgb(2, 2, 158);
-    color: rgb(2, 2, 158);
+    text-decoration: underline blue;
+    color: blue;
 }
+.footer-header{
+    font-size: 20px;
+}
+button{
+    cursor: pointer;
+  }
 .logo{
     background-image: url(../img/jambito.png);
     height: 60px;
     width: 60px;
     background-size: contain;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
 }
-#button{
-    padding: 0.7rem;
+button{
+    padding: 0.7em;
     width: 7rem;
     margin-top: -12px;
-    background-color: white;
-    border: 2px solid rgb(2, 2, 158);
+    background-color: rgb(2, 2, 158);
+    border: 1px;
+    border-radius: 5px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: rgb(2, 2, 158);
+    color: #ffffff;
+}
+
+.container{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    margin-top: 0;
+}
+.welcome{
+    padding-top: 8rem;
+}
+#main-text{    
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-weight: bolder;
+font-size: 40px;
+margin-bottom: 20px;
+color: white;    
+}
+#text{
+    font-size: 30px;
     text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+
+#btn{
+    text-align: center;
+}
+@media screen and (max-width:770px){
+header{
+    padding: 1rem 1rem 0 1rem;
+}
+.head a{
+    margin-left: 10px;
+    font-size: 16px;
+}
+button{
+    width: 5rem;
+    padding: 0.5rem;
+    font-size: 14px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.container{
+    height: 300px; 
+}
+.welcome{
+    padding-top: 2.5rem;
+}
+#main-text{    
+    font-size: 35px;    
+}
+#text{ 
+    font-size: 25px;
+}
 }
