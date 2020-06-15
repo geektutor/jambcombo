@@ -1,7 +1,7 @@
 .container1{
     display: flex;
     flex-wrap: wrap;
-    background-image: url(/img/sign.jpg);
+    background-image: url(img/sign.jpg);
 }
 .signup{
     width: 45%;
@@ -49,7 +49,7 @@ margin-bottom: 3em;
 }
 .blue{
     width: 100%;
-    background-image: url(/img/sign.jpg);
+    background-image: url(img/sign.jpg);
     background-position: center;
 }
 
