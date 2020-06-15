@@ -2,6 +2,7 @@ body
 {
   font-family: 'Roboto', sans-serif;
 }
+
 .container
 {
   background-image: url(../img/background.jpg);
@@ -11,6 +12,13 @@ body
   height: 400px;
   width: 100%;
   margin-top: 30px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  color:rgb(2, 2, 158);
 }
 .welcome
 {
@@ -145,14 +153,13 @@ button[type=submit]
   color: white;
   border-radius: 10px;
 }
-button:hover{
-  background-color: #fff;
-  color: blue;
-
-}
 #check-btn
 {
   margin-top: 150px;
+}
+#check-btn:hover{
+  background-color: rgba(222, 222, 222, 0.3);
+  color: rgb(2, 2, 158);
 }
 #join-btn
 {
@@ -257,6 +264,7 @@ button:hover{
   #check-btn
   {
     margin-top: -60px;
+    
   }
   #join-btn
   {

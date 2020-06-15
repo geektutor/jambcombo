@@ -8,7 +8,7 @@ div > p
 .waecpage1
 {
     height: calc(100vh - 300px);
-    background-image: url(../img/WP1.jpg);
+    background-image: url(/img/WP1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px; 
