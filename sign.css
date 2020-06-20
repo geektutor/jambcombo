@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    margin: auto;
+    margin-bottom: -0.8rem;
+    justify-content: space-between;
+    padding: 2rem 2rem 0 8rem;
+}
+#sign-in header{
+    padding: 2rem 2rem 0 2rem;
+}
+.heading{
+    display: flex;
+   
+}
+.head a{
+    margin-left: 3rem;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.head a:hover{
+    text-decoration: underline blue;
+    color: blue;
+}
+.logo{
+    background-image: url(jambito.png);
+    height: 60px;
+    width: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+button{
+    padding: 0.7rem;
+    width: 7rem;
+    margin-top: -12px;
+    background-color: white;
+    box-sizing: border-box;
+    border:  1px solid blue;
+    outline: none;
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.signup{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   
+}
+
+h1{
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+p{
+    font-size: 14px;
+    color: gray;
+}
+.access{
+    margin-bottom: 2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+.account{
+    text-align: center;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 5rem 3rem 8rem;
+    justify-content: center;
+    margin: auto;
+
+}
+.blue{
+    width: 55%;
+    background-color: blue;
+}
+
+input{
+    width: 85%;
+    padding: 0.58rem;
+    box-sizing: border-box;
+    border: 0.5px solid rgb(78, 75, 75);
+    border-radius: 3px;
+    margin-bottom: 10px;
+    outline: none;
+    background-color: rgba(28,55,194,0.2);
+}
+input::placeholder{
+    font-size: 11px;   
+}
+label{
+ position: relative;
+ top: 15px;
+ margin-bottom: 5px;
+ color: rgb(61, 57, 57);
+ font-size: 12px;
+}
+.check{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+}
+.check input{
+    width: auto;
+    text-align: center;
+    margin: auto;
+    opacity: 1;
+}
+.check label{
+    top: -1px;
+    margin-left: 2px;
+    color: black;
+
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1.5rem;
+}
+.remember a{
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+.forgot{
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+.create{
+    padding: 0.5rem;
+    width: 85%;
+    margin-bottom: 1rem;
+    margin-top: auto;
+    background-color: blue;
+    box-sizing: border-box;
+    border:  1px solid blue;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.already a, .have a{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+.already p, .have p{
+    color: black;
+}
+
+@media screen and (max-width:1200px){
+.signup{
+    width: 50%;
+}
+.blue{
+    width: 50%;
+}
+.forgot{
+    margin-right: 3rem;
+}
+}
+@media screen and (max-width:770px){
+header{
+    padding: 1rem 1rem 0 1rem;
+}
+.head a{
+    margin-left: 10px;
+    font-size: 16px;
+}
+button{
+    width: 4rem;
+    padding: 0.5rem;
+    font-size: 14px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.blue{
+    display: none;
+}
+.signup{
+    width: 80%;
+}
+.forgot{
+    margin-right: 4rem;
+}
+
+}
+
+@media screen and (max-width:600px){
+.signup{
+    width: 100%;
+}
+.wrapper{
+    padding: 4rem 1rem 3rem 4rem;
+}
+.forgot{
+    margin-right: 3.2rem;
+}
+
+}
+
+
+@media screen and (max-width:400px){
+.wrapper{
+    padding: 4rem 0.2rem 3rem 3.2rem;
+    margin-left: -1rem;
+} 
+input, .create{
+    width: 93%;
+}
+.forgot{margin-right: 1.6rem;}
+.have p,.already p{
+    margin-right: 2rem;
+
+}
+
+}
+
+
+@media screen and (max-width:350px){
+.wrapper{
+    padding: 4rem 0 3rem 20px;
+    margin-left: auto;
+} 
+input, .create{
+    width: 93%;
+}
+.forgot{
+    margin-right: 1.5rem;
+}
+.already p, .have p{
+    margin-right: 1rem;
+}
+.check{
+    margin-right: 2rem;
+}
+
+}
+@media(min-width:1920px){
+.forgot{
+    margin-right: 7rem;
+}
+.wrapper{
+    padding: 4rem 1rem 3rem 8rem;
+}
+.check{
+    margin-right: 6rem;
+}
+.already{
+    margin-right: 2rem;
+}
+}
+
+
